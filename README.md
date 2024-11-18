@@ -17,15 +17,15 @@ Gitlet is a custom version-control system inspired by Git, developed to provide 
 ## Architecture
 
 * Data Structures:
-  ** Hash Maps: Used for fast retrieval of commits, branches, and staged changes.
-  ** Graph-Based Commit History: Encodes commit relationships (parent-child) and supports branching and merging operations.
-  ** SHA-1 Hashing: Ensures unique identification of file snapshots and commits.
+  * Hash Maps: Used for fast retrieval of commits, branches, and staged changes.
+  * Graph-Based Commit History: Encodes commit relationships (parent-child) and supports branching and merging operations.
+  * SHA-1 Hashing: Ensures unique identification of file snapshots and commits.
 * Core Algorithms:
-  ** Recursive LCA Algorithm for efficient merge conflict detection.
-  ** Custom Diff Algorithm for comparing file changes.
+  * Recursive LCA Algorithm for efficient merge conflict detection.
+  * Custom Diff Algorithm for comparing file changes.
 * Modules:
-  ** Blob.java: Represents individual file snapshots.
-  ** Commit.java: Encapsulates commit metadata and content.
-  ** Branch.java: Manages branch-related operations.
-  ** Merge.java: Handles merging and conflict resolution.
-  ** Repo.java: Centralized repository manager for coordinating data and operations.
+  * Blob.java: Represents individual file snapshots.
+  * Commit.java: Encapsulates commit metadata and content.
+  * Branch.java: Manages branch-related operations.
+  * Merge.java: Handles merging and conflict resolution.
+  * Repo.java: Centralized repository manager for coordinating data and operations.
